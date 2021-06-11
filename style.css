@@ -1,0 +1,88 @@
+*{
+    font-family: 'Fredoka One', cursive;
+    font-size:  20px ;
+}
+/* the heading of the calculator  */
+.heading {
+    /* border :2px solid black; */
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+.contain_of_calculator{
+    /* border : 2px solid purple ; */
+    display : flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+
+/* the outer appearance of the calculator */
+.calculator {
+    border : 4px solid rgb(11, 47, 255);
+    border-radius: 10px ;
+    background-color: rgb(193, 238, 252);
+    
+}
+
+
+
+/* the inner appearance of the calculator  */
+
+.box{
+    border : 4px solid rgb(23, 3, 77) ;
+    background-color: rgb(168, 156, 185);
+    color : rgb(55, 3, 151) ;
+    border-radius: 20px ;
+    width: 60px ;
+    height :60px ;
+    align-content: center;
+}
+
+#box19{
+color :red;
+font-size: 15px ;;
+}
+#box18 {
+    color : red ;
+    font-size: 15px ;
+}
+
+
+p {
+    text-align: center;
+    font-size: 21px ;
+}
+.number_operations {
+    display : flex ;
+    flex-direction: row ;
+    background-color: rgb(82, 205, 253);
+}
+.answer {
+    border : 2.5px solid rgb(8, 1, 8);
+    background-color: white;
+    border-radius: 20px ;
+    width:419px;
+    height : 50px ;
+    margin: 10px 10px ;
+}
+
+.number {
+    display : grid ;
+    grid-template-columns : repeat(3, 60px );
+    grid-gap : 2rem;
+    /* border :2px solid blue ; */
+    margin: 10px ;
+    
+}
+
+.operations {
+    /* border :2px solid green; */
+    display : grid ;
+    grid-template-columns:repeat(2 , 60px);
+    grid-gap : 2rem;
+    margin : 10px ;
+    
+}
